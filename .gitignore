@@ -1,34 +1,4 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Basil2587 
-sag163
-/
-fibonacci_number
-1
-0
-1
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-fibonacci_number/.gitignore
-@sag163
-sag163 Initial commit
-Latest commit c5c3b77 on 5 Nov 2020
- History
- 1 contributor
-129 lines (105 sloc)  1.76 KB
- 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

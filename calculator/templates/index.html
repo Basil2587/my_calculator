@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    </head>
+
+    <body>
+      <div class="container text-center">
+        <h1>Калькулятор</h1>
+          <br/>
+          <form action="" method="post">
+              {% csrf_token %}
+              {{ form.as_p }}
+              <button type="submit" name="add">Sum +</button>
+          </form>
+          <h3>Результат: {{ result }}</h3>
+          <br/>
+          <br/>
+        </div>
+
+    </body>
+</html>
